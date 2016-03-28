@@ -1,0 +1,13 @@
+.loginFormContainer{
+background-color:lightgray;
+border-radius:15px;
+
+color:black;
+padding: 20px;
+width:800px;
+height:300px;
+margin:auto;
+box-shadow: 10px 10px 5px #888888;
+text-align:center;
+
+}

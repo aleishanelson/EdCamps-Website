@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Coding Quiz</title>
+	
+<link rel="stylesheet" type="text/css" href="css/Coding_quiz.css">
+<script src="js/Coding_quiz.js"></script>
+</head>
+<body onload="registerHandlers()">
+	<h1> Coding Quiz </h1>
+	<div id="time">
+		<h4> Time: </h4>
+		<p id="time#"> 10 Minutes Left </p>
+	</div>
+	<p> This is a sample coding quiz similar to the ones that campers will receive after 
+	each lesson is finished. This one is all about JavaScript. Campers can win prizes such
+	as t-shirts, hats, and coupons to the snack shack!</p>
+	<hr>
+	<div id="instructions">
+		<h2> JavaScript Quiz </h2>
+		<h3> Instructions </h3>
+		<ol>
+			<li> Please answer all questions to the best of your ability! </li>
+			<li> Think about each question thoroughly </li>
+			<li> You have a time limit of 10 minutes </li>
+			<li> The timer will be in the upper right hand corner </li>
+			<li> When you finished, please click the "Finish and Submit" button at the 
+			bottom of the quiz</li>
+			<li> Your score will be shown in an alert box</li>
+			<li> Good Luck! </li>
+		</ol>
+	</div>
+	<hr>
+	<h2> Please press start to begin </h2>
+	<button type="button" id="start"> Start! </button>
+	<br><hr>
+	
+	
+	<div id="Q1">
+		<h3> Question 1 </h3>
+		<h4> Consider the following code: </h4>
+			<p>var x = 15;</p>
+			<p>var y = 5; </p>
+			<p>var z = 10; </p>
+			<p>var a = (x/y) * z; </p>
+		<h4> What is the value of the variable a?</h4>
+  			<input type="radio" id="Q1_0" value="0"> 0<br>
+  			<input type="radio" id="rightAnswerQ1" value="30"> 30<br>
+  			<input type="radio" id="Q1_2" value="15"> 15 <br>
+  			<input type="radio" id="Q1_3" value="10"> 10 <br>
+  			<input type="radio" id="Q1_4" value="5"> 5 <br>
+		<br>
+	</div>
+	<br>
+	<hr>
+	
+	
+	<div id="Q2">
+		<h3> Question 2 </h3>
+		<h4> How are the variables typed in JavaScript? </h4>
+		<input type="text" id="Q2_" value="Please write your answer here!">
+	</div>
+	<br>
+	<hr>
+	
+	<div id="Q3">
+		<h3> Question 3 </h3>
+		<h4> Consider the following code: </h4>
+		<p> var j = 4+3 </p>
+		<p> var q = 5 </p>
+		<p> var s = j+q </p>
+		<h4> What is wrong with the code? </h4>
+		<select id="Q3selector">
+			<option value="0" selected> Please select the answer from the drop down menu! </option>
+  			<option value="1">A variable can't be set to the addition of two numbers</option>
+  			<option value="2">It is missing and equals sign</option>
+  			<option value="rightAnswerQ3">It does not have any semi colons after full lines of code</option>
+		</select>
+	</div>
+	<br>
+	<hr>
+	
+	<div id="Q4">
+		<h3> Question 4 </h3>
+		<h4> Who invented JavaScript? </h4>
+		<input type="text" name="Q4" id="Q4_" value="Please write your answer here!">
+	</div>
+	<br>
+	<hr>
+	
+	<div id="Q5">
+		<h3> Question 5 </h3>
+		<h4> Consider the following code: </h4>
+		<p>var candy = ["skittles", "m&m's", "snickers"];</p>
+		<p>var x = candy[1];</p>
+		<h4> What is the value of x?</h4>
+		<form action="Q5">
+  			<input type="radio" name="Q5" value="0"> skittles<br>
+  			<input type="radio" name="Q5" value="30" id="rightAnswerQ5"> m&m's<br>
+  			<input type="radio" name="Q5" value="15"> snickers<br>
+  			<input type="radio" name="Q5" value="10"> "snickers"<br>
+  			<input type="radio" name="Q5" value="5"> "m&m's"<br>
+		</form>
+	</div>
+	<br>
+	<hr>
+	
+	<div id="Q6">
+		<h3> Question 6 </h3>
+		<h4> True or False. Is this a legal JavaScript statement?</h4>
+		<p> string x; </p>
+		<form action="Q5">
+  			<input type="radio" name="Q5" value="true"> True<br>
+  			<input type="radio" name="Q5" value="false" id="rightAnswerQ6"> False<br>
+		</form>
+		<br>
+		<hr>
+	</div>
+	
+	<div id="Q7">
+		<h3> Question 7 </h3>
+		<h4> Consider the following code: </h4>
+		<p> var x = "Hello"; </p>
+		<p> var y = " neighbor! " </p>
+		<p> var z = "How is your day going?" </p>
+		<p> var a = x + y + z; </p>
+		<h4> What is the value of a? </p>
+		<input type="text" name="Q5" id="Q7_" value="Please write your answer here!">
+	</div>
+	<br>
+	<hr>
+	
+	<div id="finish">
+		<h3> All finished? Click the button below to see your score! </h3>
+		<button type="button" id="submit"> Finish and Submit! </button>
+		<br>
+		<br>
+		<hr>
+		<br>
+	</div>
+	
+	<div id="results">
+		<h2> Results! </h2>
+		<p id="results_"> </p>
+	</div>
+	
+	<h2> Thanks for playing! Click <a href="post.html"> HERE </a> to return to Activity Page! </h2>
+	
+</body>

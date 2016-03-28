@@ -1,0 +1,42 @@
+#registerContainer{
+   width: 850px;
+   margin: auto;
+   padding: 100px;
+}
+
+/*adds color to the headers row of table*/
+.instructions{ background-color: lightseagreen; }
+
+/*centers table on page*/
+.table{ margin-left: auto; margin-right: auto; text-align: center; }
+
+/*aligns text in header of table*/
+th{ text-align: center; }
+
+/*applies line under each row*/
+th, td{ border-bottom: 1px solid black; }
+
+/*changes color of row when you hover the mouse over it*/
+tr:hover{ background-color: lightgrey; }
+
+pre {
+	font-family: 'Lora', 'Times New Roman', serif;
+}
+#registrationFormContainer{
+   border: 1px solid lightgray;
+}
+#submit{
+   margin-bottom: 25px;
+}
+
+#registerform{
+   margin: auto;
+   width: 750px;
+   text-align: center;
+}
+
+#submit{
+   background-color: white;
+   width: 80px;
+   height: 40px;
+}

@@ -1,0 +1,15 @@
+h1 {
+	color:red;
+	text-align: center;
+}
+
+#form {
+	border:1px solid black;
+	margin: auto;
+	width: 650px;
+	padding:20px;
+}
+
+#forumTable tr td {
+padding: 10px;
+}

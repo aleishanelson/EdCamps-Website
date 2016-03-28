@@ -1,0 +1,47 @@
+h1 {
+	color:red;
+}
+
+#time {
+	height:100px;
+	width:150px;
+	border:2px solid red;
+	text-align:center;
+	top:0;
+	right:0;
+	position:fixed;
+	visibility:hidden;
+	background-color:white;
+}
+
+#time h4 {
+	text-decoration:underline;
+}
+
+#Q1 {
+	visibility:hidden;
+}
+
+#Q2 {
+	visibility:hidden;
+}
+
+#Q3 {
+	visibility:hidden;
+}
+
+#Q4 {
+	visibility:hidden;
+}
+
+#Q5 {
+	visibility:hidden;
+}
+
+#Q6 {
+	visibility:hidden;
+}
+
+#Q7 {
+	visibility:hidden;
+}
