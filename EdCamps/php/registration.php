@@ -2,10 +2,10 @@
    ini_set('display_errors','On');
    error_reporting(E_ALL);
 
-   $db_host = "dbserver.engr.scu.edu";
-   $db_user = "gchrist";
-   $db_pass = "00001011346";
-   $db_name = "sdb_gchrist";
+   $db_host = "dbserver.*********";
+   $db_user = "*********";
+   $db_pass = "********";
+   $db_name = "********";
 
     $flag = FALSE;
 
